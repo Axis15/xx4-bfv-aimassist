@@ -9,7 +9,7 @@ import ctypes
 # Field of View
 # Alter this between 0.1 and 3.0 for best results. 0.1 is very narrow, while larger numbers allow
 # for more soldiers to be targeted
-fov = 2.0
+fov = 60.00
 
 # Distance Limit
 # Example, set to 100 to limit locking onto soldiers further than 100 meters away.
@@ -34,7 +34,7 @@ aim_switch = keycodes.END
 # a windowed version of BFV, you'll need to set this yourself, which probably comes with its own issues
 screensize = ctypes.windll.user32.GetSystemMetrics(0), ctypes.windll.user32.GetSystemMetrics(1)
 # or
-#screensize = (1280, 960)
+#screensize = (1920, 1080)
 
 #### END OF CHANGE OPTIONS ####
 
